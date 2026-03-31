@@ -1,0 +1,65 @@
+{
+  "root": {
+    "type": "folder",
+    "name": "root",
+    "id": "root",
+    "children": [
+      { "type": "folder", "id": "src" },
+      { "type": "folder", "id": "public" },
+      { "type": "file", "id": "package_json" }
+    ]
+  },
+  "src": {
+    "type": "folder",
+    "name": "src",
+    "id": "src",
+    "parentId": "root",
+    "children": [
+      { "type": "folder", "id": "data" },
+      { "type": "file", "id": "app_js" },
+      { "type": "file", "id": "index_js" },
+      { "type": "file", "id": "file_css" }
+    ]
+  },
+  "public": {
+    "type": "folder",
+    "name": "public",
+    "id": "public",
+    "parentId": "root",
+    "children": [{ "type": "file", "id": "index_html" }]
+  },
+  "data": {
+    "type": "folder",
+    "name": "data",
+    "id": "data",
+    "parentId": "src",
+    "children": []
+  },
+  "package_json": {
+    "type": "file",
+    "name": "package.json",
+    "id": "package_json",
+    "parentId": "root"
+  },
+  "app_js": {
+    "type": "file",
+    "name": "app.js",
+    "id": "app_js",
+    "parentId": "src"
+  },
+  "index_js": {
+    "type": "file",
+    "name": "index.js",
+    "id": "index_js"
+  },
+  "file_css": {
+    "type": "file",
+    "name": "file.css",
+    "id": "file_css"
+  },
+  "index_html": {
+    "type": "file",
+    "name": "index.HTML",
+    "id": "index_html"
+  }
+}
